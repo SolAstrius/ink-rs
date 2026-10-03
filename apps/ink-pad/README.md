@@ -41,6 +41,8 @@ apps/ink-pad/target/release/ink-pad --preview /tmp/ink-pad.png
 apps/ink-pad/target/release/ink-pad --stdout-only
 ```
 
-The virtual-keyboard protocol XML is copied from wvkbd v0.20 and retains its
-MIT license notice in the XML header. DejaVu Sans and Atkinson Hyperlegible
-Next retain their accompanying font licenses under `assets/fonts/`.
+The text-entry implementation in `src/keyboard.rs` adapts wvkbd v0.20's
+temporary Unicode keymap approach and is licensed GPL-3.0-only; see
+[`COPYING`](COPYING). The protocol XML is a separate MIT-licensed Wayland
+protocol definition, with its notice retained in the XML header. DejaVu Sans
+and Atkinson Hyperlegible Next retain their font licenses under `assets/fonts/`.

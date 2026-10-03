@@ -63,7 +63,10 @@ for APIs, controls, model layout, and replay usage.
 
 ## License and warranty
 
-The original code in this repository is provided under the MIT License; see
-[LICENSE](LICENSE). Third-party files retain their own license notices. THE
-CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. The license and
-warranty disclaimer do not grant rights to any third-party model files.
+The `ink-rs` crate and other original source files are provided under the MIT
+License; see [LICENSE](LICENSE). The `apps/ink-pad` application is licensed
+under GPL-3.0-only because its text-entry implementation adapts wvkbd v0.20;
+see [apps/ink-pad/COPYING](apps/ink-pad/COPYING). Third-party assets retain
+their own notices and licenses. THE CODE IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND. These licenses do not grant rights to third-party model
+files.

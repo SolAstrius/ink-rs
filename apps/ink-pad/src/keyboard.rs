@@ -1,4 +1,7 @@
-//! Encode recognized Unicode text as virtual-keyboard events, as wvkbd does.
+// SPDX-License-Identifier: GPL-3.0-only
+// Adapted from wvkbd v0.20 keyboard handling (Copyright 2020 John Sullivan).
+// This Rust implementation batches Unicode text into temporary XKB keymaps.
+//! Encode recognized Unicode text as virtual-keyboard events.
 use std::io;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
