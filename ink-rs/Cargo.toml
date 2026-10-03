@@ -1,0 +1,21 @@
+[package]
+name = "ink-inference"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.96"
+description = "Portable IndyLSTM inference for online handwriting"
+
+[lib]
+name = "ink_inference"
+
+[[bin]]
+name = "ink-infer"
+path = "src/bin/ink-infer.rs"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+
+[workspace]

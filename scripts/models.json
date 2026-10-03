@@ -1,0 +1,50 @@
+[
+  {
+    "name": "en-spec",
+    "url": "https://dl.google.com/handwriting/models/qrnn.en.reco_20200318.fst_20191208.recospec.zip",
+    "md5": "e5fc7080f6a3c24c18b3f9ba98348099",
+    "sha1": "6c7afaf3d49b457796555bfe1defa87a7a84dff1",
+    "directory": "x_qrnn.en.reco_20200318.fst_20191208.recospec",
+    "filename": "qrnn.en.reco_20200318.fst_20191208.recospec.local"
+  },
+  {
+    "name": "en-lm",
+    "url": "https://dl.google.com/handwriting/models/en.20191208.compact.fst.zip",
+    "md5": "ca2257ecfbd168d51ad8f4cd9a816961",
+    "sha1": "e658bab006ee49265531934194b332cc0ddd6c7d",
+    "directory": "x_en.20191208.compact.fst",
+    "filename": "en.compact.fst.local"
+  },
+  {
+    "name": "en-net",
+    "url": "https://dl.google.com/handwriting/models/indy_lstm.latin.6x216.tflite.20191208.zip",
+    "md5": "e42e3001fd6b917deaa20332d855d6d7",
+    "sha1": "27cfb1b5a7e5a4dee7ba6c07aaea9c3343b34ee4",
+    "directory": "x_indy_lstm.latin.6x216.tflite.20191208",
+    "filename": "latin_indy_lstm_6x216_20191208.tflite"
+  },
+  {
+    "name": "ru-spec",
+    "url": "https://dl.google.com/handwriting/models/qrnn.ru.reco_20200717.fst_20191211.recospec.zip",
+    "md5": "29d1626721bd8dbb58d91a1f560f9820",
+    "sha1": "1783392fa68b1dca8563875c39f325294008592b",
+    "directory": "x_qrnn.ru.reco_20200717.fst_20191211.recospec",
+    "filename": "qrnn.ru.reco_20200717.fst_20191211.recospec.local"
+  },
+  {
+    "name": "ru-lm",
+    "url": "https://dl.google.com/handwriting/models/ru.20191211.compact.fst.zip",
+    "md5": "d6aab0c0e944a754731a5946ea796c5b",
+    "sha1": "3754ecaf4797b86bf878819f790bf1c8cf90c90b",
+    "directory": "x_ru.20191211.compact.fst",
+    "filename": "ru_ru.compact.fst.local"
+  },
+  {
+    "name": "ru-net",
+    "url": "https://dl.google.com/handwriting/models/indy_lstm.cyrillic.4x280.tflite.20191206.zip",
+    "md5": "9e35f1b5956d6405d9b59fbe9da5ee52",
+    "sha1": "29c3e1a050ce89d005aed770b4e2b667dcbee75a",
+    "directory": "x_indy_lstm.cyrillic.4x280.tflite.20191206",
+    "filename": "cyrillic_indy_lstm_4x280_20191206.tflite"
+  }
+]
